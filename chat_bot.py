@@ -19,11 +19,11 @@ for files in basepath:
 while True:
     # User input
     message = input("You: ")
-    if message != "bye".lower:
+    if message != "bye".lower():
         # Bot gets response for user input
         reply = bot.get_response(message)
         print("Demo_bot: ", reply)
 
-    if message == "bye".lower:
+    if message == "bye".lower():
         print("Demo_bot: Goodbye")
         break
