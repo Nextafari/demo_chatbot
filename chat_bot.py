@@ -2,7 +2,7 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 import os
 
-#names the bot
+# naming the bot
 bot = ChatBot("Demo_bot")
 
 trainer = ListTrainer(bot)
